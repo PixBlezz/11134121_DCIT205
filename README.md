@@ -21,3 +21,7 @@ the screenshot provided below
    ![courses details](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/3a35fffa-478c-40bc-8411-6906d8d05d63)
 SOME EXPERIENCES IN THE DEPARTMNET SHORT COURSES OFFERED
 ![EXPERIENCES IN SHORT COURSES](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/411298d7-b90c-40b3-b144-da14e54292ef)
+##THIS TALK ABOUT MY REGISTER PAGE A NEW UPDATE ON MY PAGE
+This page helps people register their programs online, such as web development and software development courses.
+2. A picture of the page
+   ![Register page](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/0d3bc9d1-c9ae-4e34-9c3d-edfa2cbc4bbe)
