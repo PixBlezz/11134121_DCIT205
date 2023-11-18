@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(desola-lanre-ologun-kwzWjTnDPLk-unsplash.jpg);
+      background-size: cover;
+    }
+
+    .signup-form {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    .signup-form h2 {
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-group input[type="submit"] {
+      background-color: #0602c4;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-group input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    /* Add the transform and transition for computer sciences course */
+    .computer-sciences-course {
+      transform: rotate(5deg);
+      transition: transform 0.3s ease;
+    }
+
+    /* Add hover effect for the computer sciences course */
+    .computer-sciences-course:hover {
+      transform: rotate(0);
+    }
+    body{
+        padding-top: 75px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 75px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left:0;
+        bottom: 75px;
+        z-index: 100;
+    }
+    .compicon{
+        height: 70px;
+        width:400px;
+    
+    }
+
+.ugicons{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navibar{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navtools{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin-right: 10px;
+    background-color:transparent;
+    border: none;
+}
+.navtools:hover{
+    color: rgb(1, 1, 2);
+    background-color: rgb(128, 133, 211);
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+  </style>
+</head>
+<body>
+    <div   class="header">
+
+
+        <div class="ugicons">
+            <img class="compicon" src="comScience_logo.png">
+    
+        </div>
+        <div  class="navibar">
+            <button  class="navtools"><a   href="Home.html">HOME</a></button>
+            <button  class="navtools"><a   href="about.html">ABOUT </a></button>
+            <button  class="navtools"><a   href="course.html">COURSES</a></button>
+            <button  class="navtools"><a   href="award.html">AWARDS</a></button>
+            <button  class="navtools"><a   href="more.html">MORE</a></button>
+
+
+        </div>
+        <div></div>
+
+        
+        
+    </div>
+
+  <div class="signup-form">
+    <h2>Course Registration</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"placeholder="Password" required>
+      </div>
+      <div class="form-group computer-sciences-course">
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+          <option value="computer-sciences" class="computer-sciences-course">Computer Sciences</option>
+          <option value="other">Web Development</option>
+          <option value="other">Python Development</option>
+          <option value="other">Java Development</option>
+          <option value="other">PHP Courses</option>
+          <option value="other">APP development Courses</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Sign Up">
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
