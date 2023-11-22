@@ -87,10 +87,15 @@ Screenshot of the page
 ![mphil_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/4ca94484-4f9f-4163-ba49-0b83057f84f9)
 ![mphil_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/3e827972-0561-4bfd-a1df-f21fe0cf77d2)
 ![mphil_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/f5d5d222-d0ab-4e60-94a1-3d0ece7060cd)
-## my phd courses
+## PhD courses page
 screenshot of the page
-![Uploading phd_4.png…]()
-![Uploading phd_3.png…]()
-![Uploading phd_2.png…]()
-![Uploading phd_1.png…]()
+![phd_4](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/26087a28-98a8-4d0a-be69-26c6fe26ac93)
+![phd_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/427dac33-36ca-4eb0-aa7d-cd2c5cd91ef7)
+![phd_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/3cdeaf60-d0c1-4e8e-848e-8dac51267ef7)
+![phd_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/f5390e5e-3ba9-4f43-aa1f-fe44748e1b9d)
+## more page
+screenshot of the page
+![more_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/b7ac5526-1737-4e34-85ae-6e99550bacca)
+![more_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/2025eaf1-0acd-4cb2-85d8-dbcc3ab60768)
 
+ 
