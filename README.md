@@ -71,5 +71,9 @@ SCREENSHOTS
 ![AWARD_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/e8f4752e-bf7a-4fce-85bf-b5728284ba28)
 ![AWARD_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/59060b8c-f926-4cf2-ae32-790203993045)
 ![AWARD_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/09808a14-e9a5-414c-8a43-811c41d0615c)
-
-
+## THE COURSE PAGE IS A NEW PAGE 
+SCREENSHOT OF THE PAGE
+![COURSE_4](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/6b1239f9-2e12-4632-8a7a-8bb73b0d7ede)
+![COURSE_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/c15dda8a-1726-4966-8765-a80d09b9b959)
+![COURSE_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/fe713152-aa5e-4a9f-b188-0b20d2c05c02)
+![COURSE_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/2e974424-cf3b-4f1b-841e-278860ad3d73)
