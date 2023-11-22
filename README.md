@@ -63,5 +63,13 @@ screenshot of the undergraduate page
 ![undergraduate_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/196dfe28-72b4-4026-85d2-afa1d51aba9b)
 ![undergraduate_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/9ad5c762-85c2-44f6-ab98-e21086c3c519)
 ![undergraduate_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/6e7f4940-4e82-4c1f-9bec-4a2c576c4013)
+## THE AWARDS PAGE IS A NEW UPDATE ON THE OLD WEBSITE OF THE DEPARTMENT
+SCREENSHOTS
+![AWARD_6](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/b764d8bb-d5e7-4cf6-8aa0-90fc8e510daa)
+![AWARD_5](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/01d05358-512f-472f-a2f3-de7d427a46f7)
+![AWARD_4](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/42299b72-0d65-45a7-84b8-0f7cfde4d150)
+![AWARD_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/e8f4752e-bf7a-4fce-85bf-b5728284ba28)
+![AWARD_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/59060b8c-f926-4cf2-ae32-790203993045)
+![AWARD_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/09808a14-e9a5-414c-8a43-811c41d0615c)
 
 
