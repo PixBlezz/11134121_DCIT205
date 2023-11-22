@@ -30,6 +30,10 @@ The website also talks about the MSC Computer Science and MPHIL courses such as 
 4. It has a course button, which gives us information about the courses the computer science department offers.
 5. A screenshot of the header section
 6. ![Screenshot for header](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/414e2005-bd94-4695-9f1b-54ea1aca27e2)
+## the footer for the pages
+screenshot
+![foot](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/a9ec8502-afab-43ca-8efb-37030212baf4)
+
 ## body of my computer science website with 
 some description information on my web home page
 the screenshot provided below
@@ -77,3 +81,16 @@ SCREENSHOT OF THE PAGE
 ![COURSE_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/c15dda8a-1726-4966-8765-a80d09b9b959)
 ![COURSE_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/fe713152-aa5e-4a9f-b188-0b20d2c05c02)
 ![COURSE_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/2e974424-cf3b-4f1b-841e-278860ad3d73)
+## my MSC and MPHIL page
+Screenshot of the page
+![mphil_4](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/9ac8005f-ef20-40cc-8ea1-f02ff6c2c277)
+![mphil_3](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/4ca94484-4f9f-4163-ba49-0b83057f84f9)
+![mphil_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/3e827972-0561-4bfd-a1df-f21fe0cf77d2)
+![mphil_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/f5d5d222-d0ab-4e60-94a1-3d0ece7060cd)
+## my phd courses
+screenshot of the page
+![Uploading phd_4.png…]()
+![Uploading phd_3.png…]()
+![Uploading phd_2.png…]()
+![Uploading phd_1.png…]()
+
