@@ -165,7 +165,7 @@ function level300_courses4(){
     `;
 }
 function level300_courses5(){
-    document.querySelector('.level300_firstsemester5').innerHTML=`DCIT 307	Mini-Project
+    document.querySelector('.level300_firstsemester5').innerHTML=`DCIT 307	Mini-Projects
    
     `;
 }
@@ -186,7 +186,7 @@ function level300_courses11(){
  `;
 }
 function level300_courses22(){
-    document.querySelector('.level300_firstsemester22').innerHTML=` DCIT 407	Image Processing
+    document.querySelector('.level300_firstsemester22').innerHTML=` DCIT 407	Image Processings
     
  `;
 }
