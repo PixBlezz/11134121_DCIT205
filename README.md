@@ -97,5 +97,150 @@ screenshot of the page
 screenshot of the page
 ![more_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/b7ac5526-1737-4e34-85ae-6e99550bacca)
 ![more_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/2025eaf1-0acd-4cb2-85d8-dbcc3ab60768)
+## INSTRUCTIONS ON HOW TO CLONE AND SETUP MY COMPUTER SCIENCE WEBSITE
+Forking a Repository:
+Go to GitHub:
+Open your web browser and go to GitHub.
 
+Login:
+If you're not already logged in, sign in to your GitHub account.
+
+Find the Repository:
+Navigate to the repository you want to fork. You can either search for it or use the direct link.
+
+Fork the Repository:
+In the top-right corner of the repository page, click the "Fork" button. This will create a copy of the repository in your GitHub account.
+
+Cloning Your Forked Repository:
+Open Git Bash (or your preferred terminal):
+Clone the forked repository to your local machine using the following command:
+
+bash
+Copy code
+git clone https://github.com/your-username/repository-name.git
+Navigate to the Repository:
+Change into the directory of the cloned repository:
+
+bash
+Copy code
+cd repository-name
+Making Changes:
+Create a Branch:
+Create a new branch to work on your changes:
+
+bash
+Copy code
+git checkout -b your-branch-name
+Make Changes:
+Make the necessary changes to the files in your local repository using your preferred code editor.
+
+Commit Changes:
+Commit the changes to your local repository:
+
+bash
+Copy code
+git add .
+git commit -m "Your commit message here"
+Push Changes:
+Push the changes to your fork on GitHub:
+
+bash
+Copy code
+git push origin your-branch-name
+Creating a Pull Request:
+Go to GitHub:
+Open your web browser and go to your fork of the repository.
+
+Switch Branch:
+Click on the branch dropdown and select the branch you just created.
+
+New Pull Request:
+Click on the "New pull request" button next to the branch selection dropdown.
+
+Base Repository:
+Ensure that the base repository is the one you forked, and the base and compare branches are set correctly.
+
+Create Pull Request:
+Click the "Create pull request" button.
+
+Provide Details:
+Fill in a title and description for your pull request, explaining the changes you made.
+
+Create Pull Request:
+Click the "Create pull request" button again.
+
+Final Steps:
+Wait for Review:
+The repository owner or maintainers will review your pull request. They may ask for changes or directly merge it if everything looks good.
+
+Keep Your Fork Updated:
+If your pull request takes time to be merged, keep your fork updated with the original repository to resolve conflicts easily.
+ ## WHAT I HAVE LEARNT FROM THE COMPUTER SCIENCE PROJECT
  
+ As a computer science website developer at a university, I would have most certainly acquired a variety of technical and non-technical abilities. Here are some things I may have learnt or experienced:
+
+
+Web Development Capabilities:
+
+Frontend Development is the process of creating the user interface using HTML, CSS, and JavaScript.
+
+Responsive Design: Ensuring that the website appears and performs properly across a wide range of devices and screen sizes.
+
+Frontend frameworks and libraries, such as React, Angular, or Vue.js, are used to improve the development process.
+
+Development of the backend:
+
+
+Server-Side Languages: For server-side logic, languages such as Python, Ruby, PHP, or Node.js are used.
+
+Database Integration refers to the process of connecting a website to a database, managing data, and guaranteeing data security.
+
+Controlling Versions:
+
+
+Git and GitHub: Version control solutions for managing source code and working with others.
+
+Collaboration for Growth:
+Working with other developers, designers, and maybe content providers to bring the website to life.
+
+Participating in and performing code reviews to ensure code quality.
+
+Project Administration:
+
+
+
+Adopting agile approaches for project management, such as sprints, stand-up meetings, and iterative development, is referred to as agile methodology.
+
+Task management is using technologies such as Jira or Trello to keep track of tasks and deadlines.
+
+Considerations for Security:
+
+
+Web security is the discipline of using safe coding methods in order to defend against typical web vulnerabilities.
+
+Data Protection is the process of ensuring the security and privacy of user data.
+
+
+Accessibility Standards: Ensuring that the website is accessible to people with disabilities in accordance with WCAG criteria.
+
+Management of Content:
+
+
+Content Management: Implementing a Content Management System
+Content Updates: Using a content management system (CMS) to make updates and maintenance easier.
+
+Content approach: Creating an effective approach for organizing and presenting information.
+
+Debugging and testing:
+
+Quality assurance is the process of thoroughly testing a product to find and resolve flaws.
+
+Browser compatibility refers to the website's ability to function consistently across many web browsers.
+
+Soft abilities:
+
+Effective communication with team members, stakeholders, and future users.
+
+Problem-Solving: Learning to diagnose and solve technological problems.
+
+
