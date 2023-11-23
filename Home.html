@@ -1,74 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Computer Science</title>
+<head>  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science</title>
 
 
-            <style>
-            .header{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                height: 75px;
-                align-items: center;
-                position: fixed;
-                top: 0;
-                right: 0;
-                left:0;
-                bottom: 75px;
-            }
-            .compicon{
-                height: 70px;
-                width:300px;
-             
-            }
+    <style>
 
-           .ugicons{
-        
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-           }
-          
-           .navibar{
-            display: flex;
-            flex: 1;
-            justify-content: space-between;
-            align-items: center;
-          
-           }
-           .navtools{
-            width: 100%;
-            padding: 20px 20px 20px 20px;
-            margin-right: 10px;
-            background-color: transparent;
-            border: none;
-           }
-           .navtools:hover{
-            color: blue;
-           }
-                        a{
+    body{
+        padding-top: 75px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 75px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left:0;
+        bottom: 75px;
+        z-index: 100;
+    }
+    .compicon{
+        height: 70px;
+        width:400px;
+    
+    }
+
+.ugicons{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navibar{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navtools{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin-right: 10px;
+    background-color:transparent;
+    border: none;
+}
+.navtools:hover{
+    color: blue;
+    background-color: rgb(238, 169, 78);
+    border-radius: 20px;
+}
+a{
     text-decoration: none;
     color: rgb(4, 44, 44);
     
 }
 .img1{
     width: 1680px;
-   
+   display: flex;
+   flex:1;
 }
 img{
 
     position: relative;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.1);
 }
 .hub{
     position: absolute;
-    bottom: 300px;
+    bottom: 200px;
     left: 550px;
-    color: white;
+    color: rgb(255, 174, 0);
     width: 750px;
-    font-size: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+ 
 }
 .courseButton{
     display:flex;
@@ -85,7 +104,12 @@ img{
 .course:hover{
     background-color:rgb(235, 171, 89) ;
 }
-                        .shortcourses_experience{
+.para{
+    color: #c4c4c4;
+    font-size: smaller;
+
+}
+.shortcourses_experience{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1750px;
@@ -96,45 +120,62 @@ img{
 .sshortimg{
     width: 100%;
 }
-            </style>
-        </head>
-        <body>
-            <div   class="header">
+.more {
+            background-color: rgb(8, 8, 8);
+            display: flex;
+            flex-direction: row;
+            height: 650px;
+            justify-content: space-between;
+            align-items: center;
+            color: #ffffff;
 
-
-                <div class="ugicons">
-                    <img class="compicon" src="comScience_logo.png">
             
+        }
+@media(max-width:600px){
+    .shortcourses_experience{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:600px){
+    .img2{
+        width:500px;
+        height:auto;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div   class="header">
 
 
+        <div class="ugicons">
+            <img class="compicon" src="comScience_logo.png">
+    
+        </div>
+        <div  class="navibar">
+            <button  class="navtools"><a   href="Home.html">HOME</a></button>
+            <button  class="navtools"><a   href="about.html">ABOUT </a></button>
+            <button  class="navtools"><a   href="course.html">COURSES</a></button>
+            <button  class="navtools"><a   href="award.html">AWARDS</a></button>
+            <button  class="navtools"><a   href="register.html">REGISTER</a></button>
 
 
-                </div>
-                <div  class="navibar">
-                    <button  class="navtools"><a>HOME</a></button>
-                    <button  class="navtools"><a>ABOUT </a></button>
-                    <button  class="navtools"><a>COURSES</a></button>
-                    <button  class="navtools"><a>AWARDS</a></button>
-                    <button  class="navtools"><a>MORE</a></button>
+        </div>
+        <div></div>
 
-
-
-
-
-
-                </div>
-                <div></div>
-
-                
-                
-            </div>
-                     <div  class="img1">
+        
+        
+    </div>
+    <div  class="img1">
         <div>
-    <img class="img" src="marvin-meyer-SYTO3xs06fU-unsplash.jpg" width="1930px" height="750px">
+    <img class="img2" src="christopher-gower-m_HRfLhgABo-unsplash.jpg" width="1930px" height="750px">
 
 
 
-    <h class="hub">Welcome to the Computer Science Hub! This platform serves as a central hub for computer science enthusiasts, students, and professionals. Whether you're delving into the world of algorithms, programming languages, or exploring the latest advancements in technology</h>
+    <h class="hub">Welcome to the Computer Science Hub
+        
+    </h>
 
         </div> 
         
@@ -142,20 +183,32 @@ img{
     </div>
     <div  class="courseButton">
         
-       <div> <button class="course"><a href="">SHORT COURSES</a></button> 
-        <p><a href=""></a></p>
+       <div > <button class="course"><a href="short.html">SHORT COURSES</a></button> 
+        <p class="para"><a href="short.html">Our eight week intensive <br>certificate course is open to senior high <br>
+            school graduates, <br>tertiary students, school graduates, workers<br> and the general public.</a></p>
+            <p ><a style="color: rgb(255, 177, 83);">Read more</a></p>
        </div>
 
-       <div> <button class="course"><a href="">UNDERGRADUATE COURSES </a></button> 
-        <p><a></a></p>
+       <div > <button class="course"><a href="undergraduate.html">UNDERGRADUATE COURSES </a></button> 
+        <p class="para"><a  href="undergraduate.html">Open the door to <br>sought-after technology <br>careers with a world-class<br> Bachelor of Science in<br> Computer Science degree.</a></p></a></p>
+        <p ><a style="color: rgb(255, 177, 83);">Read more</a></p>
        </div>
-        <button class="course"><a href="">MPHIL PROGRAMMES</a></button>
-        <button class="course"><a href="">Phd PROGRAMMES</a></button>
-        
+        <div ><button class="course"><a href="mp.html">MPHIL PROGRAMMES</a></button>
+        <p class="para"><a href="mp.html">Embrace world class<br> gradate education with<br> unique blend of cutting-edge<br> research and industry <br>experience.</a></p></a></p>
+        <p ><a style="color: rgb(255, 177, 83);">Read more</a></p>
+        </div>
+       <div >
+       <button class="course"><a href="phd.html">Phd PROGRAMMES</a></button>
+       <p class="para"><a href="phd.html">Our PHDs lead <br>the effort to extend<br> the boundaries of knowledge<br> through quality and industry<br> relevant research.</a></p></a></p>
+       <p
+     ><a   style="color: rgb(255, 177, 83);">Read more</a></p>
+      </div>
+     
     </div>
-   
-            
-<div class="shortcourses_experience">
+    <div>
+        <h1>SHORT COURSES EXPERIENCES</h1>
+     </div>  
+ <div class="shortcourses_experience">
 <div ><img Class="sshortimg" src="marvin-meyer-SYTO3xs06fU-unsplash (1).jpg" alt="">
 <p> unique blend of cutting-edge<br> research and industry <br>experience.</p>
 
@@ -183,6 +236,45 @@ img{
 
 
  </div>
+ <div class="more">
+    <div class="signs">
+        <button style="height: 60px; width: 120px; margin-left: 20px;margin-bottom: 30px;border-radius: 20px;"><a
+                href="about.html">About us</a></button>
+        <br>
+        <button style="height: 60px; width: 120px; margin-left: 20px;margin-bottom: 30px;border-radius: 20px;"><a
+                href="Home.html">contact us</a></button>
+        <br>
+        <button style="height: 60px; width: 120px; margin-left: 20px;border-radius: 20px;"><a
+                href="award.html">AWARDS</a></button>
+    </div>
+    <div>
+        <button
+            style="height: 60px; width: 320px; margin-left: 20px;margin-bottom: 30px;border-radius: 20px;background-color: blanchedalmond;"><a
+                href="course.html">COURSES</a></button>
+        <br>
+        <button
+            style="height: 60px; width: 320px; margin-left: 20px;border-radius: 20px;background-color: bisque;"><a
+                href="register.html">REGISTER</a></button>
+    </div>
+    <div>
+        <h1 style="font-size: 50px;">Sign up for offers, news  and programming  inspiration
+            <br>
+
+            <u>@gmail.com</u>
+
+        </h1>
+        <div class="logo">
+            <img src="youtube-logo.svg" alt="" height="60px" style="background-color: #dfcaca;
+        margin-right: 10px;border-radius:15px">
+            <img src="upload.svg" alt="" height="60px"
+                style="background-color: #ffffff;margin-right:10px;border-radius:15px">
+            <img src="explore.svg" alt="" height="60px"
+                style="background-color: #ffffff;margin-right:10px;border-radius:15px">
+            <img src="home.svg" alt="" height="60px" style="background-color: #ffffff;border-radius:15px">
+        </div>
+
+    </div>
+</div>
 
 
 
@@ -191,5 +283,5 @@ img{
 
 
 
-        </body>
-        </html>
+</body>
+</html>
