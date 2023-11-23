@@ -97,6 +97,7 @@ screenshot of the page
 screenshot of the page
 ![more_1](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/b7ac5526-1737-4e34-85ae-6e99550bacca)
 ![more_2](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/2025eaf1-0acd-4cb2-85d8-dbcc3ab60768)
+![lib](https://github.com/PixBlezz/11134121_DCIT205/assets/148706507/d8ccb2e9-c3dc-4aea-809b-3ae15e71c749)
 ## INSTRUCTIONS ON HOW TO CLONE AND SETUP MY COMPUTER SCIENCE WEBSITE
 Forking a Repository:
 Go to GitHub:
