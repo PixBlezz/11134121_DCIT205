@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Science</title>
+
+  <style>
+    body {
+      padding-top: 75px;
+      font-family:  sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 75px;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 100;
+    }
+
+    .compicon {
+      height: 70px;
+      width: auto; 
+    }
+
+    .ugicons {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .navibar {
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navtools {
+      padding: 20px 20px 20px 20px;
+      margin-right: 10px;
+      background-color: transparent;
+      border: none;
+    }
+
+    .navtools:hover {
+      color: blue;
+      background-color: rgb(140, 201, 252);
+      border-radius: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(4, 44, 44);
+    }
+
+    .img1 {
+      display: flex;
+      flex: 1;
+    }
+
+    .img {
+      width: 100%;
+      height: auto;
+      position: relative;
+      object-fit: cover;
+    }
+
+    .hub {
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+      color: rgb(0, 0, 0);
+      width: 75%; /* Adjusted width for better responsiveness */
+      font-size: 3vw; /* Adjusted font size for responsiveness */
+      font-weight: bolder;
+      opacity: 0; /* Initially hidden */
+      transform: translateY(20px); /* Initial position for animation */
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    }
+
+    .img1:hover .hub {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      transition: background-color 0.5s ease-in-out;
+      background-color: #ffffff;
+      padding: 2vw;
+      border-radius: 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .flex-container:hover {
+      background-color: #ffffff;
+    }
+
+    .responsive-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2vw;
+      border-radius: 5px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .responsive-img:hover {
+      transform: scale(1.1);
+    }
+      .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .box {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .box:hover {
+            background-color: rgba(89, 125, 247, 0.5); /* Red with 50% opacity */
+        }
+
+        .image-container {
+            overflow: hidden;
+            max-width: 100%;
+            margin: 20px 0;
+        }
+
+        .responsive-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        @media screen and (max-width: 768px) {
+            .box {
+                flex-basis: 100%;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animated-box {
+            animation: fadeIn 1s ease-in-out;
+        }
+        .main-content {
+      padding: 20px;
+      text-align: center;
+     
+     
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+    }
+
+    @media (max-width: 600px) {
+      .footer {
+        width: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="ugicons">
+      <img class="compicon" src="comScience_logo.png">
+    </div>
+    <div class="navibar">
+      <button class="navtools"><a href="Home.html">HOME</a></button>
+      <button class="navtools"><a href="about.html">ABOUT </a></button>
+      <button class="navtools"><a href="course.html">COURSES</a></button>
+      <button class="navtools"><a href="award.html">AWARDS</a></button>
+      <button class="navtools"><a href="register.html">REGISTER</a></button>
+    </div>
+    <div></div>
+  </div>
+
+  <div class="img1">
+    <div>
+      <img class="img" src="anton-maksimov-5642-su-dq1fhO59SZU-unsplash.jpg" alt="Background Image">
+      <h class="hub">
+        When selecting awards for computer science, it's essential to consider the specific achievements, contributions, or qualities you want to recognize
+      </h>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+        
+    </div>
+    <div class="content">
+        <div class="box animated-box">
+            <h2>DATA SCIENTIST</h2>
+            <p>Diving into the heart of data-driven innovation, the Best Data Scientist Award at the University of Ghana stands as a beacon of excellence, honoring individuals who have mastered the art and science of extracting valuable insights from vast datasets. This accolade recognizes outstanding contributions to the field of data science, a discipline at the forefront of the information age.</p>
+        </div>
+        <div class="box animated-box">
+            <h2>WEB DEVELOPERS</h2>
+            <p>In the dynamic world of web development, the Best Web Developer Award at the University of Ghana shines as a distinguished recognition, honoring individuals who have demonstrated exceptional skills, creativity, and innovation in crafting immersive online experiences.</p>
+        </div>
+        <div class="box animated-box">
+            <h2>PYTHON ENGINEER</h2>
+            <p>This award celebrates the mastery of one of the most versatile and widely used programming languages, honoring those who have made significant contributions to the world of software development.</p>
+        </div>
+    </div>
+   
+</div>
+
+  <div class="flex-container">
+    
+   <DIV><img src="anton-maksimov-5642-su-GhCCXC6VPPE-unsplash.jpg" alt="Image 2" class="responsive-img">
+
+ <br>
+<br>
+<h2>THE BEST STUDENT AWARD</h2>
+<h3>This Award is giving to the best student in the University Of Ghana</h3>
+<p>The prestigious Computer Science Awards at the University of Ghana stand as a testament to the institution's commitment to academic excellence and innovation in the field of technology. Recognizing outstanding achievement, these awards celebrate the brightest minds and most dedicated individuals who have made significant contributions to the world of computing.
+
+    Winners of these esteemed awards have demonstrated exceptional skills in problem-solving, critical thinking, and cutting-edge technological advancements. The awards acknowledge not only academic prowess but also a passion for pushing the boundaries of what is possible in the dynamic and rapidly evolving field of computer science.
+    Embarking on a journey of academic excellence and innovation, the Computer Science Awards at the University of Ghana stand as a testament to the outstanding achievements within the realm of technology and computing. Recognizing and honoring the brightest minds in the field, these awards showcase a commitment to fostering a culture of innovation and intellectual prowess.</p></DIV> 
+    <div><br>
+        <br><img src="good-free-photos-YZsvNs2GCPU-unsplash.jpg" alt="Image 3" class="responsive-img">
+    <br>
+<br>
+<h2>BEST JUNIOR DATA SCIENTIST AWARD</h2>
+<h3>This Award is giving the best data sientsist in the department</h3>
+<p>Diving into the heart of data-driven innovation, the Best Data Scientist Award at the University of Ghana stands as a beacon of excellence, honoring individuals who have mastered the art and science of extracting valuable insights from vast datasets. This accolade recognizes outstanding contributions to the field of data science, a discipline at the forefront of the information age.
+    By receiving the Best Data Scientist Award at the University of Ghana, individuals become part of an elite community dedicated to advancing the frontiers of data science. This award not only recognizes past accomplishments but also encourages ongoing excellence and innovation in the rapidly evolving field of data science.
+
+Elevate your skills, contribute to transformative research, and be recognized as a leader in the dynamic world of data science. The University of Ghana Best Data Scientist Award: Where Data Excellence Meets Recognition.
+</p></div>
+    <div><br><br><img src="rosie-kerr-6X7y8b0IN6M-unsplash.jpg" alt="Image 4" class="responsive-img">
+    <br>
+<br>
+<h2>THE BEST JAVA ENGINEER AWARD</h2>
+<h3>This Award is giving to the student who excel most in the java competitions</h3>
+<p>In the realm of software engineering, the University of Ghana Java Engineer Award stands as a prestigious accolade, recognizing individuals who have demonstrated exceptional proficiency and innovation in Java development. This award celebrates the mastery of one of the most versatile and widely used programming languages, honoring those who have made significant contributions to the world of software development.In the ever-evolving landscape of technology, the award recognizes individuals who display an adaptability to emerging technologies within the Java ecosystem. Whether it's integrating with new frameworks or exploring cutting-edge Java features, awardees stay at the forefront of technological advancements.
+
+
+    By receiving the Java Engineer Award at the University of Ghana, individuals become part of an elite community of Java developers dedicated to excellence and innovation. This award not only recognizes past achievements but also encourages continuous learning and contribution to the dynamic field of Java development.
+    
+    Elevate your Java skills, contribute to the evolution of software engineering, and be recognized as a leader in Java development. The University of Ghana Java Engineer Award: Where Java Excellence Meets Recognition.
+    
+    
+    
+    
+    
+    </p></div>
+   <div> <BR><BR>
+    <img src="berend-van-rossum-Lq5JlXJrx2k-unsplash.jpg" alt="Image 5" class="responsive-img">
+    <h2>THE DEVELOPER AWARD</h2>
+    <h3>This Award is giving to the best web developer in the college</h3>
+    <p>In the dynamic world of web development, the Best Web Developer Award at the University of Ghana shines as a distinguished recognition, honoring individuals who have demonstrated exceptional skills, creativity, and innovation in crafting immersive online experiences. This award celebrates the mastery of web technologies and the ability to translate visions into seamlessly functioning and aesthetically pleasing websites.Awardees showcase exceptional collaboration and project management skills. Whether working independently or as part of a team, they effectively communicate and coordinate to deliver web projects on time and within scope.
+
+        In the ever-evolving landscape of web development, the award recognizes individuals who stay abreast of emerging trends and technologies. Awardees demonstrate an eagerness to embrace new tools, frameworks, and design principles.
+        
+        
+        By receiving the Best Web Developer Award at the University of Ghana, individuals become part of an elite community of web developers dedicated to excellence and innovation. This award not only recognizes past achievements but also encourages continuous learning and contribution to the dynamic and rapidly evolving field of web development.</p></div>
+        <div class="main-content">
+          <h1>Best programming School</h1>
+          <p> the Best Web Developer Award at the University of Ghana,</p>
+          <p><strong>AWARDS IN UNIVERSITY OF GHANA</strong></p>
+        </div>
+      
+        <div class="footer">
+          <p>&copy; 2023 University of Ghana. All rights reserved.</p>
+        </div>
+</body>
+</html>
