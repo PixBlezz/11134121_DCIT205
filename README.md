@@ -1,5 +1,5 @@
-STUDENT ID 11134121
-NAME: BOAFO OPPONG SAMUEL
+# STUDENT ID 11134121
+# NAME: BOAFO OPPONG SAMUEL
 # A brief introduction about my computer science
 
 We are thrilled to announce the latest update to My Computer Science, your go-to destination for all things computer science. Our team has been hard at work to enhance your browsing experience and bring you even more valuable content.This new website contains a lot of features that the old website did not have.With this new website, there are more pages, such as register, which reduces the stress of going through the manual process before you register for a course of your choice.The award page shows the awards that the computer science department offers for performing.The most prestigious award is the Best Computer Science Award. This new update also has some courses the department offers, such as programming, Java development,machine learning, and many more.Web development is a field that involves creating and maintaining websites or web applications. Here are several reasons why web development is important and attractive to many individuals and businesses:
@@ -189,12 +189,7 @@ Responsive Design: Ensuring that the website appears and performs properly acros
 
 Frontend frameworks and libraries, such as React, Angular, or Vue.js, are used to improve the development process.
 
-Development of the backend:
 
-
-Server-Side Languages: For server-side logic, languages such as Python, Ruby, PHP, or Node.js are used.
-
-Database Integration refers to the process of connecting a website to a database, managing data, and guaranteeing data security.
 
 Controlling Versions:
 
@@ -218,8 +213,6 @@ Considerations for Security:
 
 
 Web security is the discipline of using safe coding methods in order to defend against typical web vulnerabilities.
-
-Data Protection is the process of ensuring the security and privacy of user data.
 
 
 Accessibility Standards: Ensuring that the website is accessible to people with disabilities in accordance with WCAG criteria.
